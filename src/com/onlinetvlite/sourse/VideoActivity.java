@@ -103,7 +103,7 @@ public class VideoActivity extends Activity{
 			videoView.setVideoURI(video);
 			showProgressDoalog();	
 		} else {
-			Toast.makeText(getApplicationContext(), "Не удалось подключиться к интернету", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(),getResources().getString(R.string.string_error_connect_to_internet), Toast.LENGTH_SHORT).show();
 		}
 	}
 
@@ -118,8 +118,8 @@ public class VideoActivity extends Activity{
 
 	private void showProgressDoalog() {
 		progressDialog = new ProgressDialog(this);
-		progressDialog.setTitle("Подключение к серверу" );
-		progressDialog.setMessage("Подождите пожалуйста");
+		progressDialog.setTitle(getResources().getString(R.string.string_dialog_title));
+		progressDialog.setMessage(getResources().getString(R.string.string_dialog_message));
 		progressDialog.setCancelable(true);
 		progressDialog.setCanceledOnTouchOutside(false);
 		progressDialog.show();

@@ -1,40 +1,43 @@
 <resources>
 
-    <string name="app_name">Онлайн ТВ</string>
+    <string name="app_name">Online TV</string>
 
-    <string name="string_exit">Выход</string>
+    <string name="string_exit">Exit</string>
+    <string name="string_error_connect_to_internet">Failed to connect to the Internet</string>
+    <string name="string_dialog_title">Connecting to server</string>
+    <string name="string_dialog_message">Please wait</string>
     <string name="adword_id_mainactivity">ca-app-pub-9151361881581211/5582036088</string>
     <string name="adword_id_videoactivity">ca-app-pub-9151361881581211/9152986484</string>
     <string name="adword_page">ca-app-pub-9151361881581211/1578810880</string>
     
     <string-array name="channels_names">
-        <item>Первый</item>
-        <item>Россия 1</item>
-        <item>Россия 2</item>
-        <item>Россия 24</item>
-        <item>Россия К</item>
-        <item>5 канал</item>
-        <item>НТВ</item>
-        <item>Карусель</item>
-        <item>Звезда</item>
-        <item>ТВЦ</item>
+        <item>First channel</item>
+        <item>Russia 1</item>
+        <item>Russia 2</item>
+        <item>Russia 24</item>
+        <item>Russia К</item>
+        <item>5 channel</item>
+        <item>NTV</item>
+        <item>Karusel</item>
+        <item>Star channel</item>
+        <item>TVC</item>
         <item>RU TV</item>
-        <item>Ю</item>
-        <item>ТВ-3</item>
-        <item>Домашний</item>
-        <item>ОТВ</item>
-        <item>РБК ТВ</item>
-        <item>Перец</item>
-        <item>Мир 24</item>
-        <item>24 Техно</item>
-        <item>Пятница</item>
+        <item>U TV</item>
+        <item>TV-3</item>
+        <item>Home channel</item>
+        <item>OTV</item>
+        <item>RBK TV</item>
+        <item>Papper channel</item>
+        <item>World 24</item>
+        <item>24 techno</item>
+        <item>Friday channel</item>
         <item>ICTV</item>
         <item>1+1</item>
-        <item>СТБ</item>
-        <item>Новый</item>
+        <item>STB</item>
+        <item>New channel</item>
         <item>QTV</item>
         <item>2+2</item>
-        <item>5 Украина</item>
+        <item>5 Ukraine</item>
         <item>M1</item>
         <item>M2</item>
     </string-array>

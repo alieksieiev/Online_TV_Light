@@ -18,11 +18,11 @@
         android:id="@+id/adViewMainActivity"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp"
         android:layout_gravity="center"
         ads:adSize="BANNER"
         ads:adUnitId="@string/adword_id_mainactivity"
         ads:loadAdOnCreate="true"
-        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+        android:padding="15dp"
+        ads:testDevices = "TEST_EMULATOR, TEST_DEVICE_ID" />
 
 </LinearLayout>

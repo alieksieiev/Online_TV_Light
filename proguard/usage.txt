@@ -1117,12 +1117,7 @@ com.google.ads.AdView:
     542:546:public boolean isReady()
     651:654:public void stopLoading()
 com.google.ads.InterstitialAd:
-    private com.google.ads.internal.d a
-    82:83:public InterstitialAd(android.app.Activity,java.lang.String)
-    97:99:public InterstitialAd(android.app.Activity,java.lang.String,boolean)
     108:108:public boolean isReady()
-    120:121:public void loadAd(com.google.ads.AdRequest)
-    130:131:public void show()
     142:143:public void setAdListener(com.google.ads.AdListener)
     151:152:protected void setAppEventListener(com.google.ads.AppEventListener)
     161:162:public void stopLoading()
@@ -1158,8 +1153,6 @@ com.google.ads.e:
     260:269:public void a(com.google.ads.h)
     273:282:public void b(com.google.ads.h)
     286:295:public void c(com.google.ads.h)
-    306:315:public boolean c()
-    489:491:private com.google.ads.h e()
     52:52:static synthetic com.google.ads.h c(com.google.ads.e)
 com.google.ads.e$2
 com.google.ads.e$3
@@ -1170,17 +1163,14 @@ com.google.ads.f:
     79:79:public java.util.List e()
 com.google.ads.h:
     116:116:public com.google.ads.f a()
-    211:237:public synchronized void g()
     265:265:synchronized com.google.ads.mediation.MediationAdapter i()
     272:272:com.google.ads.e j()
     276:277:synchronized void a(android.view.View)
-com.google.ads.h$2
 com.google.ads.internal.d:
     549:549:public synchronized boolean s()
     718:721:public synchronized void a(com.google.ads.f,boolean)
     845:862:private void b(com.google.ads.f,java.lang.Boolean)
     942:954:public synchronized void z()
-    1073:1100:public synchronized void B()
 com.google.ads.j:
     private boolean b
     34:66:public void onReceivedAd(com.google.ads.mediation.MediationBannerAdapter)
@@ -1212,8 +1202,6 @@ com.google.ads.mediation.MediationBannerListener:
     public abstract void onDismissScreen(com.google.ads.mediation.MediationBannerAdapter)
     public abstract void onLeaveApplication(com.google.ads.mediation.MediationBannerAdapter)
     public abstract void onClick(com.google.ads.mediation.MediationBannerAdapter)
-com.google.ads.mediation.MediationInterstitialAdapter:
-    public abstract void showInterstitial()
 com.google.ads.mediation.MediationInterstitialListener:
     public abstract void onReceivedAd(com.google.ads.mediation.MediationInterstitialAdapter)
     public abstract void onFailedToReceiveAd(com.google.ads.mediation.MediationInterstitialAdapter,com.google.ads.AdRequest$ErrorCode)
@@ -1258,7 +1246,6 @@ com.google.ads.searchads.SearchAdRequest:
     207:208:public void setBorderThickness(int)
     215:216:public void setCustomChannels(java.lang.String)
 com.google.ads.util.a:
-    37:38:public static void a(boolean)
     53:55:public static void a(java.lang.Object)
 com.onlinetvlite.sourse.BuildConfig
 com.onlinetvlite.sourse.R

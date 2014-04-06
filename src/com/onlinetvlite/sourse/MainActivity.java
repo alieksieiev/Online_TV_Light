@@ -17,11 +17,12 @@ import android.widget.Toast;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
+import com.google.ads.InterstitialAd;
 
 public class MainActivity extends Activity{
 
 	private AdView adView;
-	//private InterstitialAd interstitial;
+	private InterstitialAd interstitial;
 	private ListView listView;
 	private ArrayAdapter<String> adapter;
 	private String [] channelsNames;
@@ -32,10 +33,12 @@ public class MainActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		adView = (AdView)findViewById(R.id.adViewMainActivity);
-		adView.loadAd(new AdRequest());
+		AdRequest adRequest = new AdRequest();
+		adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+		adView.loadAd(adRequest);
 
-		//interstitial = new InterstitialAd(this, getResources().getString(R.string.adword_page));
-		//interstitial.loadAd(new AdRequest());
+		interstitial = new InterstitialAd(this, getResources().getString(R.string.adword_page));
+		interstitial.loadAd(new AdRequest());
 
 		channelsNames = getResources().getStringArray(R.array.channels_names);
 		channelsPathes = getResources().getStringArray(R.array.channels_path);
@@ -51,7 +54,7 @@ public class MainActivity extends Activity{
 					intent.putExtra("channelPath", channelsPathes[position]);
 					startActivity(intent);
 				}else {
-					Toast.makeText(getApplicationContext(), "Не удалось подключиться к интернету", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getApplicationContext(), getResources().getString(R.string.string_error_connect_to_internet), Toast.LENGTH_SHORT).show();
 				}
 			}
 		});
@@ -68,7 +71,7 @@ public class MainActivity extends Activity{
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.exit:
-			//interstitial.show();
+			interstitial.show();
 			finish();
 		default:
 			break;
@@ -96,7 +99,7 @@ public class MainActivity extends Activity{
 	@Override
 	public void onBackPressed() {
 		super.onBackPressed();
-		//interstitial.show();
+		interstitial.show();
 	}
 
 	@Override
@@ -109,5 +112,4 @@ public class MainActivity extends Activity{
 		super.onResume();
 	}
 	
-
 }
