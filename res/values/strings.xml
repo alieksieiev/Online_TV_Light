@@ -1,0 +1,73 @@
+<resources>
+
+    <string name="app_name">Онлайн ТВ</string>
+
+    <string name="string_exit">Выход</string>
+    <string name="adword_id_mainactivity">ca-app-pub-9151361881581211/5582036088</string>
+    <string name="adword_id_videoactivity">ca-app-pub-9151361881581211/9152986484</string>
+    <string name="adword_page">ca-app-pub-9151361881581211/1578810880</string>
+    
+    <string-array name="channels_names">
+        <item>Первый</item>
+        <item>Россия 1</item>
+        <item>Россия 2</item>
+        <item>Россия 24</item>
+        <item>Россия К</item>
+        <item>5 канал</item>
+        <item>НТВ</item>
+        <item>Карусель</item>
+        <item>Звезда</item>
+        <item>ТВЦ</item>
+        <item>RU TV</item>
+        <item>Ю</item>
+        <item>ТВ-3</item>
+        <item>Домашний</item>
+        <item>ОТВ</item>
+        <item>РБК ТВ</item>
+        <item>Перец</item>
+        <item>Мир 24</item>
+        <item>24 Техно</item>
+        <item>Пятница</item>
+        <item>ICTV</item>
+        <item>1+1</item>
+        <item>СТБ</item>
+        <item>Новый</item>
+        <item>QTV</item>
+        <item>2+2</item>
+        <item>5 Украина</item>
+        <item>M1</item>
+        <item>M2</item>
+    </string-array>
+    <string-array name="channels_path">
+        <item>http://hls.novotelecom.ru/streaming/1kanal/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/rossija/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/sport/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/vesti/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/kultura/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/5kanal/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/ntv/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/karusel/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/zvezda/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/tvc/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/rutv/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/utv/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/tv3/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/domashny/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/otvrus/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/rbk/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/perec/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/mir/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/24techno/tvrec/playlist.m3u8</item>
+        <item>http://hls.novotelecom.ru/streaming/friday/tvrec/playlist.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv6/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv2/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv10/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv11/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv20/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv3/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv9/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv8/254655234003931824/tv.m3u8</item>
+        <item>http://cosmo.divan.tv:8001/tv31/254655234003931824/tv.m3u8</item>
+    </string-array>
+
+</resources>

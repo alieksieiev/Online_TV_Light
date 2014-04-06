@@ -1,0 +1,21 @@
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.google.ads.AdView
+            android:id="@+id/adViewVideoActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/adword_id_videoactivity"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+
+        <ListView
+            android:id="@+id/list_view_video"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
